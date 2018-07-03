@@ -1,0 +1,39 @@
+﻿<Page
+    x:Class="BlueScreenPrank.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BlueScreenPrank"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="DodgerBlue">
+        <TextBlock Text=":("
+                   Foreground="White"
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Top"
+                   FontSize="200" Margin="120,99,0,0"
+                   
+                   />
+
+        <TextBlock 
+            Text="Your Application ran into a problem and need to restart. We're just collecting some error info, and then your computer will blow up. (1% complete)"
+            Foreground="White"
+            HorizontalAlignment="Left"
+           
+            TextWrapping="WrapWholeWords"
+                   VerticalAlignment="Top"
+                   FontSize="36" Margin="120,394,0,0" Width="1041" Height="182"
+            />
+        <TextBlock 
+            Text="If you'd like to know more, you can search online later for this error: MS_ERROR_COMPUTER_BLOW_UP"
+            Foreground="White"
+            HorizontalAlignment="Left"
+           
+            TextWrapping="WrapWholeWords"
+            VerticalAlignment="Top"
+            FontSize="20" Margin="120,584,0,0" Width="1041" Height="182"
+            />
+    </Grid>
+</Page>
